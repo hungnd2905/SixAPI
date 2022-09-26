@@ -8,7 +8,6 @@ namespace SixAPI.Dtos
         public string? HowTo { get; set; }
 
         [Required]
-        [MaxLength(8)]
         public string? Platform { get; set; }
 
         [Required]
